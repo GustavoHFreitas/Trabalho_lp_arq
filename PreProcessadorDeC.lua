@@ -14,7 +14,7 @@
 --  Linguagem: LUA 5.4.4
 --  https://www.lua.org/
 --
--- Obs: Esse é meu primeiro código em Lua.
+-- Esse é meu primeiro código em Lua.
 --
 
 local Abrir = io.open
