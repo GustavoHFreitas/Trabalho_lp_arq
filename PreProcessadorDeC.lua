@@ -74,8 +74,8 @@ end
 local function IncluiAux(Codigo)
     local _, IncJ = string.find(Codigo, "#include(%s+)<(%w+).(%w+)")
     local _, IncI = string.find(Codigo, "#include(%s+)<")
-    while (IncJ ~= nil) do                                          --Executa até não achar mais include's
-        IncJ = string.sub(Codigo,IncI+1,IncJ)                       --Obtém o texto entre IncI e IncJ
+    while (IncJ ~= nil) do                                          
+        IncJ = string.sub(Codigo,IncI+1,IncJ)                       
         Codigo = Inclui(IncJ,Codigo)
         _, IncJ = string.find(Codigo, "#include(%s+)<(%w+).(%w+)")
         _, IncI = string.find(Codigo, "#include(%s+)<")
