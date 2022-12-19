@@ -11,8 +11,7 @@ Objetivo: Implementar um "Pré-Processador" para C que consiga,
 
 Apresentação: Explicar o código e Pré-Processadores
 
-Linguagem: LUA 5.4.4 (Livre Escolha)
-https://www.lua.org/
+Linguagem: [LUA 5.4.4](https://www.lua.org/) (Livre Escolha)
 
 <h2>Changelog:</h2>
 <b>V2.0:</b>
